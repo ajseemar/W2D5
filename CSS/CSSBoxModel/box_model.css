@@ -1,4 +1,8 @@
 div {
+  height: 200px;
+  width: 200px;
+  padding: 50px;
+  border: 5px solid black;
 }
 
 #first-div {
@@ -7,8 +11,35 @@ div {
 
 #second-div {
   background-color: #ff4136;
+  box-sizing: border-box;
+}
+
+#default-div {
+  padding: 0;
+  background-color: blue;
+  min-height: 10px;
+  height: auto;
 }
 
 p {
   background-color: #7fdbff;
 }
+
+.image-1-container {
+  width: 200px;
+  height: 600px;
+  background-color: goldenrod;
+}
+
+.image-1-container img {
+  width: 100%;
+  height: 100%;
+  background-color: goldenrod;
+}
+
+.image-1-container-copy {
+  width: 100%;
+  height: 100%;
+  background-color: goldenrod;
+}
+
